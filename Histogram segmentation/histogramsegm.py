@@ -11,7 +11,7 @@ np.random.seed(1)
 # It can be called again to re-seed the generator.
 # For details, see RandomState.
 
-n = 25
+n = int(input('Enter n:'))
 l = 256
 
 im = np.zeros((l, l))
